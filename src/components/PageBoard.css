@@ -1,0 +1,53 @@
+.event-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.event-information-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.event {
+    background-color: rgb(248, 125, 125);
+    border-radius: 5px;
+    border: 4px solid rgb(244, 102, 102);
+    width: 300px;
+    padding: 10px 20px;
+}
+
+.page-board,
+.page-title {
+    background-color: rgb(153, 153, 232);
+    border: 4px solid rgb(103, 103, 236);
+    border-radius: 7px;
+}
+
+.page-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px 70px;
+    place-items: center;
+    padding: 30px 80px;
+}
+
+.page-title {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 455px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background-color: white;
+    width: 1420px;
+    margin: 20px 22px 40px;
+    padding: 60px 0px;
+    border-radius: 7px;
+    border: 4px solid rgb(65, 64, 64);
+}
